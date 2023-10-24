@@ -36,6 +36,10 @@ walkable:
   - path
   - sand
 
+
+mobs:
+  zombie: {spawn_prob:0, despawn_prob:.4}
+
 items:
   health: {max: 9, initial: 9}
   food: {max: 9, initial: 9}

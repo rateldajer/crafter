@@ -13,5 +13,10 @@ try:
       entry_point='crafter:Env',
       max_episode_steps=10000,
       kwargs={'reward': False})
+  gym.register(
+      id='CrafterNoRewardEasy-v1',
+      entry_point='crafter:Env_Easy',
+      max_episode_steps=10000,
+      kwargs={'reward': False})
 except ImportError:
   pass
